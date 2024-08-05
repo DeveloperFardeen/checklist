@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const countSpan = document.getElementById('count');
   
     // function showSavedData() {
-    //     checklist.innerHTML = localStorage.getItem('checklist24032024');
+    //     checklist.innerHTML = localStorage.getItem('myChecklistData2024');
     // }
     // showSavedData();
     // Uncomment the above code after first execution of complete file
@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     function saveData() {
-        localStorage.setItem('myChecklistData', checklist.innerHTML);
+        localStorage.setItem('myChecklistData2024', checklist.innerHTML);
     }
 });
   
